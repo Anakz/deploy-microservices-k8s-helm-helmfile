@@ -16,3 +16,13 @@ spec:
                 name: adminer
                 port:
                   number: 8080
+    - host: kanban.k8s.com
+      http:
+        paths: 
+          - path: /api/
+            pathType: Prefix
+            backend:
+              service:
+                name: kanban-app
+                port:
+                  number: 8080
