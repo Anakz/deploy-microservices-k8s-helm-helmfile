@@ -1,0 +1,10 @@
+# put only values that will be specific for this deployment
+postgres:
+    config:
+        data:
+            - key: POSTGRES_DB
+              value: kanban
+            - key: POSTGRES_USER
+              value: kanban
+            - key: POSTGRES_PASSWORD
+              value: kanban
