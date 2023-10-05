@@ -8,6 +8,7 @@ ingress:
     - host: chart-example.local
       paths: 
         - path: /
+          pathType: Prefix
           backend:
             serviceName: serviceName
             servicePort: 8080
