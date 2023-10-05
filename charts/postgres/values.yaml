@@ -2,7 +2,7 @@ replicaCount: 1
 postgres:
   name: postgres
   group: db
-  namespace: helm-ns
+  namespace: helmfile-ns
   container:
     image: postgres:9.6-alpine
     port: 5432

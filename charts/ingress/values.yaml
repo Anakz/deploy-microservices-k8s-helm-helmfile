@@ -1,6 +1,6 @@
 ingress:
   name: ingress-service
-  namespace: helm-ns
+  namespace: helmfile-ns
   replicaCount: 1
   annotations: 
     class: nginx

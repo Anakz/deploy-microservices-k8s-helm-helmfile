@@ -1,6 +1,6 @@
 app:
   name: app
-  namespace: helm-ns
+  namespace: helmfile-ns
   group: app
   replicaCount: 1
   container:

@@ -1,13 +1,13 @@
 ingress:
   hosts:
-    - host: adminero-helm.k8s.com
+    - host: adminero-helmfile.k8s.com
       paths:
         - path: /
           pathType: Prefix
           backend:  
             serviceName: adminer
             servicePort: 8080
-    - host: kanbano-helm.k8s.com
+    - host: kanbano-helmfile.k8s.com
       paths: 
         - path: /api/
           pathType: Prefix
